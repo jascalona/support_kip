@@ -12,11 +12,17 @@
 
 
             <div class="container-login">
-                <form action="">
-                    <div class="row">
+                <form action="" method="POST">
+                    < class="row">
                         <h6>Inicar Sesion</h6>
                         <small>Note: To access the technical documentation you must enter the partner portal</small>
+
+                        <?php
+                        include './CONTROLLER/conexion.php';
                         
+                        ?>                    
+
+
                         <div class="inpus">
                             <input type="text" name="user" id="user" placeholder="Ingrese su Usuario" required>
                             <br>

@@ -10,8 +10,21 @@ html,body{
     width: 100%;
 }
 
-/*CENTER-IMG-HEADER*/
+/*CENTER-IMG-HEADER-PANEL*/
 .header-img{
+    background-image: url(/IMG/panel.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+/*CENTER-IMG-HEADER-KIP-SERIE*/
+.header-img-kip-serie{
     background-image: url(/IMG/img-header.jpg);
     height: 500px;
     background-repeat: no-repeat;
@@ -23,6 +36,19 @@ html,body{
     color: #fff;
 }
 
+
+/*CENTER-IMG-HEADER-sistema-kip*/
+.header-img-sistema-kip{
+    background-image: url(https://images.unsplash.com/photo-1642480532034-362360552ccb?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
 
 nav{
     padding: 10px 30px;

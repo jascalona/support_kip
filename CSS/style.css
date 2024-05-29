@@ -12,7 +12,7 @@ html,body{
 
 /*CENTER-IMG-HEADER-PANEL*/
 .header-img{
-    background-image: url(/IMG/panel.jpg);
+    background-image: url(http://localhost/support_kip/IMG/panel.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@ html,body{
 
 /*CENTER-IMG-HEADER-KIP-SERIE*/
 .header-img-kip-serie{
-    background-image: url(/IMG/img-header.jpg);
+    background-image: url(http://localhost/support_kip/IMG/img-header.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;

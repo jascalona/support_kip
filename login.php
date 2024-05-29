@@ -13,13 +13,13 @@
 
             <div class="container-login">
                 <form action="" method="POST">
-                    < class="row">
+                    <div class="row">
                         <h6>Inicar Sesion</h6>
                         <small>Note: To access the technical documentation you must enter the partner portal</small>
 
                         <?php
-                        include './CONTROLLER/conexion.php';
-                        
+                        include "./CONTROLLER/validar.php"
+
                         ?>                    
 
 
@@ -31,9 +31,9 @@
                         </div>
                     
                         <div class="btn-l">
-                            <button type="submit"><a href="">Ingresar</a></button>
+                            <button name="btn-i" type="submit" value="Ingresarasasa"><a href="">Ingresar</a></button>
                         </div>
-                    </div>
+                    </>
                 </form>
             </div>   
 

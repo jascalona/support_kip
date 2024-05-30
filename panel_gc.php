@@ -1,5 +1,8 @@
 <?php
 session_start();
+if (!empty($_SESSION["id"])) {
+    header("location: ./login.php");
+}
 
 ?>
 
@@ -20,6 +23,7 @@ session_start();
 </head>
 <body>
     
+
     <nav>
         <div class="logo">
             <a href="./panel_gc.php">Virtual Technical Education</a>

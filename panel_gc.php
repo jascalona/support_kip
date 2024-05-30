@@ -1,7 +1,11 @@
 <?php
 session_start();
-if (!empty($_SESSION["user"])) {
+if (!empty($_SESSION["id"])) {
     header("./login.php");
+}else{
+    if ((time() - $_SESSION['time']) > 40) {
+        header("location: ./login.php");
+    }
 }
 
 ?>

@@ -31,7 +31,7 @@
                         </div>
                     
                         <div class="btn-l">
-                            <button name="btn-i" type="submit" value="Ingresarasasa"><a href="">Ingresar</a></button>
+                            <button name="btn-i" type="submit" value="Ingresarasasa"><a href="./CONTROLLER/validar.php">Ingresar</a></button>
                         </div>
                     </>
                 </form>

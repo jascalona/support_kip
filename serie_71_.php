@@ -16,12 +16,12 @@
     
     <nav>
         <div class="logo">
-            <a href="./panel_gc.html">Virtual Technical Education</a>
+            <a href="./panel_gc.php">Virtual Technical Education</a>
         </div>
         <ul id="menuList">
             <li></li>
-            <li><a href="./serie_71_.html">KIP Serie 71</a></li>
-            <li><a href="./sistema_kip_k.html">Sistema KIP K</a></li>
+            <li><a href="./serie_71_.php">KIP Serie 71</a></li>
+            <li><a href="./sistema_kip_k.php">Sistema KIP K</a></li>
 
             <div class="btn-group" role="group">
                 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">

@@ -17,7 +17,7 @@ if (!empty($_POST['btn-i'])) {
         if ($datos=$sql->fetch_object()) {
             $_SESSION["user"]= $datos->user;
             
-            header("location: ./panel_gc.html");
+            header("location: ./panel_gc.php");
         } else {
             echo '<div style="background: rgb(190, 34, 34, 0.542); position: absolute; padding: 10px; margin-top: -66px; margin-left: -75px;" class="alert alert-danger">ACCESO DENEGADO. "COMUNIQUESE CON EL ADMINISTRADOR DE SISTEMA"</div>';
         }

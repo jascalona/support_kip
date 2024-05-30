@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,10 +31,12 @@
 
             <div class="btn-group" role="group">
                 <button type="submit" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  USER
+                    <?php
+                    echo $_SESSION['user'];
+                    ?>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                  <li><a class="dropdown-item" href="./CONTROLLER//close.php">Cerrar Sesion</a></li>
                 </ul>
               </div>
               

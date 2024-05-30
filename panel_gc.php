@@ -1,7 +1,7 @@
 <?php
 session_start();
-if (!empty($_SESSION["id"])) {
-    header("location: ./login.php");
+if (!empty($_SESSION[""])) {
+    header("./login.php");
 }
 
 ?>
@@ -23,7 +23,6 @@ if (!empty($_SESSION["id"])) {
 </head>
 <body>
     
-
     <nav>
         <div class="logo">
             <a href="./panel_gc.php">Virtual Technical Education</a>
@@ -36,8 +35,8 @@ if (!empty($_SESSION["id"])) {
             <div class="btn-group" role="group">
                 <button type="submit" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <?php
-                    echo $_SESSION['user'];
-                    
+                    echo $_SESSION["surname"];
+
                     ?>
                 </button>
                 <ul class="dropdown-menu">

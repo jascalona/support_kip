@@ -2,6 +2,7 @@
 
 include "./CONTROLLER/conexion.php";
 
+session_start();
 
 if (!empty($_POST['btn-i'])) {
     if (!empty($_POST['user']) and !empty($_POST['password'])) {

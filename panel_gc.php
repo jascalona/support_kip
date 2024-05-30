@@ -1,7 +1,7 @@
 <?php
 session_start();
-?>
 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +33,7 @@ session_start();
                 <button type="submit" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <?php
                     echo $_SESSION['user'];
+                    
                     ?>
                 </button>
                 <ul class="dropdown-menu">

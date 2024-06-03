@@ -33,13 +33,13 @@
                         </div>
                     
                         <div class="btn-l">
-                            <button name="btn-i" type="submit" value="Ingresarasasa"><a href="./CONTROLLER/validar.php">Ingresar</a></button>
+                            <button name="btn-i" type="submit" value="submit"><a href="">Ingresar</a></button>
                         </div>
                     </>
                 </form>
 
                 <div class="inicio">
-                    <a href="./index.html">Ir Al Inicio</a>
+                    <a style="margin-top: 70px; display: flex; justify-content: center;" href="./index.html">Ir Al Inicio</a>
                 </div>    
             </div>   
 

@@ -70,3 +70,10 @@ body{
     text-decoration: none;
 }
 
+/*CLASS INICIO*/
+.inicio{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+

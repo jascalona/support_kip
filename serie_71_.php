@@ -91,7 +91,7 @@ if (!empty($_SESSION["id"])) {
                     <h5 class="card-title">Manual de Servicio</h5>
                     <p class="card-text">Este manual de servicio incluye información básica sobre la impresora multifunción KIP serie 71</p>
                     <br>
-                    <a href="https://mega.nz/file/g6NUxAYL#CA6pcUoKAwUHoSfg7Iz77CQmOP9n5PlNktFoIgCQGDQ"><p class="card-text"><small class="text-body-secondary">Echar un Vistazo</small></p></a>
+                    <a href="https://drive.google.com/file/d/17XtEFPBwMqjBi0UdsGY-c61qOtJnydct/view?usp=drive_link"><p class="card-text"><small class="text-body-secondary">Echar un Vistazo</small></p></a>
                     </div>
                 </div>
                 </div>
